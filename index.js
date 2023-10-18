@@ -18,9 +18,30 @@
 
 // WHEN I open the `logo.svg` file in a browser
 // THEN I am shown a 300x200 pixel image that matches the criteria I entered
-
+const { readFile, writeFile } = require('fs/promises');
 const CLI = require('./lib/cli.js');
 
+readFile('./data/cli.js', 'utf-8')
+.then ((json) => {
+    const generatedImage = JSON.parse(json);
+    const image = new generatedImage (
+        generatedImage.text,
+        generatedImage.textColor,
+        generatedImage.shape,
+        generatedImage.shapeColor
+    );
+    const html = image.render();
+    return writeFile('./index.html', html);
+})
+.then(() =>{
+    console.log('html page created!');
+})
+.catch((error) => {
+    console.log(error);
+    console.log('i couldnt do it ): ');
+})
 const cli = new CLI();
 
 cli.run();
+
+
