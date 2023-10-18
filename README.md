@@ -19,5 +19,3 @@ MIT
  <a href="mailto:sweet.victoria1218@gmail.com">Email Me</a>
 
  <a href="https://github.com/VictoriaSweet">Github Link</a>
-
-!
