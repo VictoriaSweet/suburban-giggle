@@ -1,17 +1,23 @@
-# suburban-giggle
-Challenge 10 from Coding Bootcamp
+# Suburban-Giggle
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for text
-THEN I can enter up to three characters
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+## Description
+With this application you are able to generate a logo with a selected shape (square, circle,triangle) as well as up to 3 alphabetical characters within it, with your own selected font color. The logo generated will be an SVG file.
+
+## Installation
+N/A
+
+# Usage
+This  application is made to generate sn SVG image.
+
+## Credits
+N/A
+
+## License
+MIT
+
+### Questions?
+ <a href="mailto:sweet.victoria1218@gmail.com">Email Me</a>
+
+ <a href="https://github.com/VictoriaSweet">Github Link</a>
+
+!
